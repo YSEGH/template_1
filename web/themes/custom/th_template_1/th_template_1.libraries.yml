@@ -1,0 +1,17 @@
+global-styling:
+  version: 1.0
+  css:
+    base:
+      css/style.css: {}
+      css/page.css: {}
+      css/pager.css: {}
+      css/nav.css: {}
+      css/node/node--image--teaser.css: {}
+      css/node/node--profil--full.css: {}
+      css/form/form--contact.css: {}
+      css/view/view--work.css: {}
+      css/page/page--contact.css: {}
+      "//fonts.googleapis.com/css2?family=Kaushan+Script&display=swap":
+        { external: true }
+      "//fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap":
+        { external: true }

@@ -1,0 +1,17 @@
+<?php
+
+function template_1_theme($existing, $type, $theme, $path)
+{
+  return [
+    'homepage' => [
+      'variables' => [
+        'profil' => null,
+      ],
+    ],
+    /*     'page__contact' => [
+      'variables' => [
+        'form' => null,
+      ],
+    ], */
+  ];
+}

@@ -1,0 +1,62 @@
+form#contact-message-formulaire-de-contact-form {
+  font-family: "Josefin Sans", sans-serif;
+}
+form#contact-message-formulaire-de-contact-form h2 {
+  font-size: 50px;
+  font-weight: 400;
+  user-select: none;
+}
+form#contact-message-formulaire-de-contact-form .form-element:hover {
+  box-shadow: none !important;
+}
+form#contact-message-formulaire-de-contact-form .form-element:focus-visible {
+  outline: none !important;
+}
+form#contact-message-formulaire-de-contact-form label {
+  font-size: 18px;
+  font-weight: 400;
+}
+form#contact-message-formulaire-de-contact-form input {
+  font-size: 18px;
+  font-weight: 400;
+  border: none;
+  border-bottom: 1px solid #000;
+  padding: 0;
+  color: #75767b;
+}
+form#contact-message-formulaire-de-contact-form textarea {
+  font-size: 18px;
+  font-weight: 400;
+  border: none;
+  border-bottom: 1px solid #000;
+  padding-inline: 0;
+  color: #75767b;
+}
+form#contact-message-formulaire-de-contact-form input::placeholder,
+form#contact-message-formulaire-de-contact-form textarea::placeholder {
+  color: #c5c5c5;
+}
+
+form#contact-message-formulaire-de-contact-form .form-group {
+  width: 30rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+form#contact-message-formulaire-de-contact-form .form-group-item {
+  width: 14rem;
+}
+form#contact-message-formulaire-de-contact-form input[type="submit"] {
+  padding: 1rem 1.5rem;
+  background-color: transparent;
+  border: 1px solid #000 !important;
+  border-radius: 60px;
+  box-shadow: none;
+  color: #000;
+  min-width: 10rem;
+  transition: 0.25s;
+}
+form#contact-message-formulaire-de-contact-form input[type="submit"]:hover {
+  background-color: #000;
+  color: #fff;
+}

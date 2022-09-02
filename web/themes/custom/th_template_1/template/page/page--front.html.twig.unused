@@ -1,0 +1,4 @@
+{{page.header}}
+<div class="page-content home">
+  {{node_view}}
+</div>

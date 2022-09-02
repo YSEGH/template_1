@@ -1,0 +1,39 @@
+.pager {
+  margin-bottom: 0 !important;
+}
+.pager__link.is-active,
+.pager__item--current {
+  color: #fff !important;
+  background: #000 !important;
+}
+.pager__link:hover,
+.pager__link.is-active:hover {
+  color: #5e5e5e !important;
+  background: #fffbda !important;
+}
+.page-wrapper *:focus,
+.ui-dialog *:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+.ajax-progress.ajax-progress-fullscreen {
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100vw !important;
+  height: 100vh !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+.ajax-throbber.sk-wave {
+  position: absolute !important;
+  left: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  top: 0 !important;
+  margin: auto !important;
+}
+.ajax-throbber.sk-wave .sk-rect {
+  background-color: #fff16f !important;
+}

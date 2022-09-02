@@ -1,0 +1,14 @@
+template_1.home:
+  path: "/home"
+  defaults:
+    _controller: '\Drupal\template_1\Controller\IndexController::homepage'
+    _title: "Home"
+  requirements:
+    _permission: "access content"
+#template_1.contact:
+#  path: "/contact"
+#  defaults:
+#    _controller: '\Drupal\template_1\Controller\IndexController::contact'
+#    _title: "Contact"
+#  requirements:
+#    _permission: "access content"

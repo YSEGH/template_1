@@ -1,0 +1,72 @@
+.work-item {
+  width: 15rem;
+  height: 15rem;
+  position: relative;
+  margin: 0.75rem;
+  overflow: hidden;
+  border-radius: 5px;
+}
+.work-item .img-container img {
+  width: 15rem;
+  height: 15rem;
+  object-fit: cover;
+  object-position: center center;
+}
+.work-item .text-container {
+  position: absolute;
+  top: 3rem;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  transition: 0.25s;
+  background: linear-gradient(
+    to bottom,
+    rgba(55, 55, 55, 0) 10%,
+    rgba(55, 55, 55, 0.7) 75%
+  );
+  color: #fff;
+  font-weight: 100;
+}
+.work-item .text-container .title {
+  position: absolute;
+  text-transform: uppercase;
+  font-weight: 400;
+  bottom: 3.5rem;
+  left: 1rem;
+  height: 1.5rem;
+  line-height: 1.5rem;
+  width: 100%;
+  letter-spacing: 1px;
+  transition: 0.25s;
+}
+.work-item .text-container .place {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 14px;
+  font-weight: 200;
+  bottom: 1.5rem;
+  left: 1rem;
+  height: 1.5rem;
+  line-height: 1.5rem;
+  width: 100%;
+  letter-spacing: 1px;
+  transition: 0.25s;
+}
+.work-item .text-container .place svg {
+  margin-right: 0.25rem;
+  width: 20px;
+}
+.work-item .text-container .place svg path {
+  fill: #fff;
+}
+.work-item:hover .text-container {
+  transform: translateY(-1.5rem);
+}
+.work-item:hover .text-container .title {
+  transform: translateY(-0.25rem);
+}
+.work-item:hover .text-container .place {
+  transform: translateY(-0.5rem);
+}

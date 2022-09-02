@@ -1,0 +1,27 @@
+<form {{attributes}}>
+  <h2>Contact</h2>
+  <div class="form-group">
+    <div class="form-group-item">
+      {{ element.field_lastname }}
+    </div>
+    <div class="form-group-item">
+      {{ element.field_firstname }}
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="form-group-item">
+      {{ element.field_email }}
+    </div>
+    <div class="form-group-item">
+      {{ element.field_subject }}
+    </div>
+  </div>
+  <div class="form-group">
+    {{ element.message }}
+  </div>
+  {{ element.form_build_id }}
+  {{ element.form_id }}
+  <div class="form-group">
+    {{ element.actions.submit }}
+  </div>
+</form>

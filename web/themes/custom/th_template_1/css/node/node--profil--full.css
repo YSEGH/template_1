@@ -1,0 +1,22 @@
+.profil-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.profil-item .img-container img {
+  width: 10rem;
+  height: 10rem;
+  background-color: transparent;
+}
+.profil-item .text-container h4.title {
+  display: flex;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 50px;
+  color: #000;
+  font-family: "Kaushan Script", cursive;
+}
+.profil-item .text-container h4.title span {
+  font-weight: 100;
+}

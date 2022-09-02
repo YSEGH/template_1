@@ -1,0 +1,37 @@
+:root {
+  --padding-nav: 1rem;
+}
+
+nav .menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  pointer-events: none;
+}
+nav .menu li a {
+  text-decoration: none;
+  color: #000;
+  pointer-events: all;
+}
+nav .menu .menu-item:nth-child(1) {
+  position: absolute;
+  left: var(--padding-nav);
+  top: var(--padding-nav);
+}
+nav .menu .menu-item:nth-child(2) {
+  position: absolute;
+  right: var(--padding-nav);
+  top: var(--padding-nav);
+}
+nav .menu .menu-item:nth-child(3) {
+  position: absolute;
+  left: var(--padding-nav);
+  bottom: var(--padding-nav);
+}
+nav .menu .menu-item:nth-child(4) {
+  position: absolute;
+  right: var(--padding-nav);
+  bottom: var(--padding-nav);
+}
