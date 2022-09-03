@@ -1,0 +1,52 @@
+.ui-dialog .ui-dialog-title {
+  display: none !important;
+}
+.ui-dialog:focus {
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+.ui-dialog .ui-dialog-titlebar {
+  padding: 0 !important;
+  width: 100% !important;
+  background: transparent !important;
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+}
+.ui-dialog .ui-dialog-titlebar-close {
+  position: relative !important;
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+  margin: 0 !important;
+  transform: none !important;
+  overflow: hidden !important;
+}
+.ui-dialog .ui-dialog-titlebar-close:focus {
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+.ui-dialog .ui-icon.ui-icon-closethick {
+  transform: none !important;
+}
+.ui-button-icon-only .ui-icon {
+  position: relative !important;
+  top: auto;
+  left: auto;
+  margin: 0 !important;
+}
+.ui-button-icon-space {
+  display: none;
+}
+.ui-dialog .ui-dialog-content {
+  padding: 0 !important;
+}
+.ui-dialog .ui-dialog-content form {
+  height: 100%;
+}
+.ui-dialog .ui-dialog-content form img {
+  height: 100%;
+  object-fit: cover;
+}

@@ -1,10 +1,20 @@
 .work-item {
+  display: block;
   width: 15rem;
   height: 15rem;
   position: relative;
   margin: 0.75rem;
   overflow: hidden;
   border-radius: 5px;
+}
+.work-item .modal-link {
+  width: 15rem;
+  height: 15rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  z-index: 100;
 }
 .work-item .img-container img {
   width: 15rem;
@@ -31,6 +41,7 @@
   position: absolute;
   text-transform: uppercase;
   font-weight: 400;
+  font-size: 14px;
   bottom: 3.5rem;
   left: 1rem;
   height: 1.5rem;
@@ -61,12 +72,23 @@
 .work-item .text-container .place svg path {
   fill: #fff;
 }
-.work-item:hover .text-container {
+.work-item .modal-link:hover ~ .text-container {
   transform: translateY(-1.5rem);
 }
-.work-item:hover .text-container .title {
+.work-item .modal-link:hover ~ .text-container .title {
   transform: translateY(-0.25rem);
 }
-.work-item:hover .text-container .place {
+.work-item .modal-link:hover ~ .text-container .place {
   transform: translateY(-0.5rem);
+}
+
+/* Ajax */
+.work-item .ajax-progress {
+  display: none !important;
+}
+.work-item .ajax-throbber.sk-wave {
+  display: none !important;
+}
+.work-item .ajax-throbber.sk-wave .sk-rect {
+  display: none !important;
 }

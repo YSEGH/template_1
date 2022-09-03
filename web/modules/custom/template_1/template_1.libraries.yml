@@ -1,5 +1,4 @@
-global-styling:
-  version: 1.0
-  css:
-    base:
-      css/style.css: {}
+template_1.modal:
+  version: 1.x
+  dependencies:
+    - core/drupal.ajax

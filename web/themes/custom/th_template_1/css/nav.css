@@ -10,6 +10,9 @@ nav .menu {
   width: 100vw;
   pointer-events: none;
 }
+nav .menu a.is-active {
+  pointer-events: none;
+}
 nav .menu li a {
   text-decoration: none;
   color: #000;

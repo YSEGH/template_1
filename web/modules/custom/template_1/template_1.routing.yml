@@ -5,6 +5,14 @@ template_1.home:
     _title: "Home"
   requirements:
     _permission: "access content"
+
+template_1.modal_image:
+  path: "/modal/{media_id}"
+  defaults:
+    _form: '\Drupal\template_1\Form\ModalImageForm'
+    _title: "Modal image"
+  requirements:
+    _permission: "access content"
 #template_1.contact:
 #  path: "/contact"
 #  defaults:
