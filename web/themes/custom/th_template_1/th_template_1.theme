@@ -45,7 +45,7 @@ function th_template_1_form_contact_message_formulaire_de_contact_form_alter(&$f
 {
   /*   $form['message']['widget'][0]['value']['#rows'] = 1;
   dd($form); */
-  $form['actions']['submit']['#value'] = t('Send');
+  $form['actions']['submit']['#value'] = 'Send';
 }
 
 function th_template_1_theme_suggestions_alter(array &$suggestions, array $variables, $hook)
