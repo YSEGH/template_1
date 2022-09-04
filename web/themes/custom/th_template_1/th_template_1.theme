@@ -3,9 +3,6 @@
 use Drupal\Component\Render\FormattableMarkup;
 use Drupal\Component\Serialization\Json;
 use Drupal\Core\Url;
-use Drupal\file\Entity\File;
-use Drupal\media\Entity\Media;
-use Drupal\node\Entity\Node;
 
 function th_template_1_preprocess_pager(&$variables)
 {
@@ -15,9 +12,12 @@ function th_template_1_preprocess_pager(&$variables)
 function th_template_1_preprocess_page__contact(&$variables)
 {
 }
-
-function th_template_1_preprocess_node__image__teaser(&$variables)
+function th_template_1_preprocess_node__profil(&$variables)
 {
+}
+function th_template_1_preprocess_node__item__teaser(&$variables)
+{
+
   $node_id = $variables['elements']['#node']->id();
   $link_href = Url::fromRoute('template_1.modal_image')->setRouteParameter('media_id', $node_id)->toString();
   $modal_link = [

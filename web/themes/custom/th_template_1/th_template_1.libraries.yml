@@ -6,7 +6,7 @@ global-styling:
       css/page.css: {}
       css/pager.css: {}
       css/nav.css: {}
-      css/node/node--image--teaser.css: {}
+      css/node/node--item--teaser.css: {}
       css/node/node--profil--full.css: {}
       css/form/form--contact.css: {}
       css/modal/modal-image.css: {}

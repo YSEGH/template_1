@@ -1,6 +1,8 @@
 <?php
 
 // phpcs:ignoreFile
+/* $config['system.logging']['error_level'] = 'verbose';
+ */
 
 /**
  * @file
@@ -794,7 +796,7 @@ $settings['migrate_node_migrate_type_classic'] = FALSE;
 # if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
 #   include $app_root . '/' . $site_path . '/settings.local.php';
 # }
-$databases['default']['default'] = array (
+$databases['default']['default'] = array(
   'database' => 'template_projet',
   'username' => 'root',
   'password' => 'root',

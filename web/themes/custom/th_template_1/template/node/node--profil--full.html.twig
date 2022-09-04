@@ -1,10 +1,13 @@
 <div class="profil-item">
-<div class="ajax-progress"><div class="throbber">&nbsp;</div></div>
+  <div class="ajax-progress"><div class="throbber">&nbsp;</div></div>
   <div class="img-container">
-    {{content.field_icon}}
+    {{ content.field_image }}
   </div>
   <div class="text-container">
-    <h4 class="title">{{content.field_firstname}}&nbsp;<span>{{content.field_lastname}}</span></h4>
+    <h4 class="title">
+      {{ content.field_firstname }}&nbsp;<span>{{
+        content.field_lastname
+      }}</span>
+    </h4>
   </div>
 </div>
-
